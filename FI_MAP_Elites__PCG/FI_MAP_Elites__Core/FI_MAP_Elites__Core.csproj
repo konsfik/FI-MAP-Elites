@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <RootNamespace>EDF</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Algorithmic_Implementations\DS__Evolvable_Geometry\Evaluation_Methods\**" />
+    <EmbeddedResource Remove="Algorithmic_Implementations\DS__Evolvable_Geometry\Evaluation_Methods\**" />
+    <None Remove="Algorithmic_Implementations\DS__Evolvable_Geometry\Evaluation_Methods\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common_Tools\Common_Tools.csproj" />
+    <ProjectReference Include="..\TriangleNet_Beta4\source\Triangle.NET\Triangle\Triangle.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+  </ItemGroup>
+</Project>

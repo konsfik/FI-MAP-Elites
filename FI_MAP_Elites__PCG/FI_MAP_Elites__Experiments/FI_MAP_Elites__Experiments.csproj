@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common_Tools\Common_Tools.csproj" />
+    <ProjectReference Include="..\FI_MAP_Elites__Core\FI_MAP_Elites__Core.csproj" />
+    <ProjectReference Include="..\FI_MAP_Elites__Experiment_Runners\FI_MAP_Elites__Experiment_Runners.csproj" />
+    <ProjectReference Include="..\FI_MAP_Elites__Serialization\FI_MAP_Elites__Serialization.csproj" />
+    <ProjectReference Include="..\FI_MAP_Elites__Visualization\FI_MAP_Elites__Visualization.csproj" />
+  </ItemGroup>
+
+</Project>

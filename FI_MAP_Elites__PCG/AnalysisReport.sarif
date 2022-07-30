@@ -1,0 +1,389 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-2.1.0",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "Dependency Analysis",
+          "semanticVersion": "0.3.255803",
+          "informationUri": "https://docs.microsoft.com/en-us/dotnet/core/porting/upgrade-assistant-overview",
+          "rules": [
+            {
+              "id": "UA101",
+              "fullDescription": {
+                "text": "Dependency Analysis"
+              }
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "UA101",
+          "message": {
+            "text": "Package Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.3.255803 needs to be added "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/_repos/Rhino_Plugins_Tests/Evolutionary_Design_Framework/External_Libraries/Triangle_Dot_Net/Triangle/Triangle_Dot_Net.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA101",
+          "message": {
+            "text": "Package Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.3.255803 needs to be added "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/_repos/Rhino_Plugins_Tests/Evolutionary_Design_Framework/External_Libraries/UTEST__Triangle_Dot_Net/UTEST__Triangle_Dot_Net.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA101",
+          "message": {
+            "text": "Package MSTest.TestAdapter needs to be upgraded from 2.1.1 to 2.2.7."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/_repos/Rhino_Plugins_Tests/Evolutionary_Design_Framework/Unit_Testing/UTEST__Use_Cases/UTEST__Benchmarks.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA101",
+          "message": {
+            "text": "Package Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.3.255803 needs to be added "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/_repos/Rhino_Plugins_Tests/Evolutionary_Design_Framework/Unit_Testing/UTEST__Use_Cases/UTEST__Benchmarks.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA101",
+          "message": {
+            "text": "Package Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.3.255803 needs to be added "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/_repos/Rhino_Plugins_Tests/Evolutionary_Design_Framework/Libraries/Constrained_Optimization_CEC2006/Constrained_Optimization_CEC2006.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA101",
+          "message": {
+            "text": "Package Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.3.255803 needs to be added "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/_repos/Rhino_Plugins_Tests/Evolutionary_Design_Framework/Demo_Applications/EXP__Constrained_Optimization_CEC2006/EXP__Constrained_Optimization_CEC2006.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA101",
+          "message": {
+            "text": "Package MSTest.TestAdapter needs to be upgraded from 2.1.1 to 2.2.7."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/_repos/Rhino_Plugins_Tests/Evolutionary_Design_Framework/Unit_Testing/UTEST__Constrained_Optimization_CEC2006/UTEST__Constrained_Optimization_CEC2006.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA101",
+          "message": {
+            "text": "Package Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.3.255803 needs to be added "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/_repos/Rhino_Plugins_Tests/Evolutionary_Design_Framework/Unit_Testing/UTEST__Constrained_Optimization_CEC2006/UTEST__Constrained_Optimization_CEC2006.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA101",
+          "message": {
+            "text": "Package Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.3.255803 needs to be added "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/_repos/Rhino_Plugins_Tests/Evolutionary_Design_Framework/Libraries/Common_Tools/Common_Tools.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA101",
+          "message": {
+            "text": "Package MSTest.TestAdapter needs to be upgraded from 2.1.2 to 2.2.7."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/_repos/Rhino_Plugins_Tests/Evolutionary_Design_Framework/Unit_Testing/UTEST__Common_Tools/UTEST__Common_Tools.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA101",
+          "message": {
+            "text": "Package Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.3.255803 needs to be added "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/_repos/Rhino_Plugins_Tests/Evolutionary_Design_Framework/Unit_Testing/UTEST__Common_Tools/UTEST__Common_Tools.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA101",
+          "message": {
+            "text": "Package Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.3.255803 needs to be added "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/_repos/Rhino_Plugins_Tests/Evolutionary_Design_Framework/___Extras/Experiment_Templates/Experiment_Templates.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA101",
+          "message": {
+            "text": "Package SkiaSharp, Version=2.80.3 needs to be deleted "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/_repos/Rhino_Plugins_Tests/Evolutionary_Design_Framework/Demo_Applications/DEMO__Evolvable_Geometries/DEMO__Evolvable_Geometries.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA101",
+          "message": {
+            "text": "Package Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.3.255803 needs to be added "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/_repos/Rhino_Plugins_Tests/Evolutionary_Design_Framework/Demo_Applications/DEMO__Evolvable_Geometries/DEMO__Evolvable_Geometries.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA101",
+          "message": {
+            "text": "Package SkiaSharp, Version=2.80.3 needs to be deleted "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/_repos/Rhino_Plugins_Tests/Evolutionary_Design_Framework/Demo_Applications/DEMO__Evolvable_Topologies/DEMO__Evolvable_Topologies.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA101",
+          "message": {
+            "text": "Package Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.3.255803 needs to be added "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/_repos/Rhino_Plugins_Tests/Evolutionary_Design_Framework/Demo_Applications/DEMO__Evolvable_Topologies/DEMO__Evolvable_Topologies.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA101",
+          "message": {
+            "text": "Package Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.3.255803 needs to be added "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/_repos/Rhino_Plugins_Tests/Evolutionary_Design_Framework/___Extras/SPEC__Voronoi_2D/SPEC__Voronoi_2D.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA101",
+          "message": {
+            "text": "Package MSTest.TestAdapter needs to be upgraded from 2.1.2 to 2.2.7."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/_repos/Rhino_Plugins_Tests/Evolutionary_Design_Framework/___Extras/UTEST__Mazes_2D/UTEST__Mazes_2D.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA101",
+          "message": {
+            "text": "Package Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.3.255803 needs to be added "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/_repos/Rhino_Plugins_Tests/Evolutionary_Design_Framework/___Extras/UTEST__Mazes_2D/UTEST__Mazes_2D.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA101",
+          "message": {
+            "text": "Package Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.3.255803 needs to be added "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/_repos/Rhino_Plugins_Tests/Evolutionary_Design_Framework/UTEST__Algorithms/UTEST__Algorithms.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA101",
+          "message": {
+            "text": "Package Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.3.255803 needs to be added "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/_repos/Rhino_Plugins_Tests/Evolutionary_Design_Framework/Evolutionary_Design_Framework/Evolutionary_Design_Framework.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "UA101",
+          "message": {
+            "text": "Package Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.3.255803 needs to be added "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/_repos/Rhino_Plugins_Tests/Evolutionary_Design_Framework/DEMO__Evolvable_Binary_Tables__net5/DEMO__Evolvable_Binary_Tables.csproj"
+                },
+                "region": {}
+              }
+            }
+          ]
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    },
+    {
+      "tool": {
+        "driver": {
+          "name": "API Upgradability",
+          "semanticVersion": "0.3.255803",
+          "informationUri": "https://docs.microsoft.com/en-us/dotnet/core/porting/upgrade-assistant-overview"
+        }
+      },
+      "results": [],
+      "columnKind": "utf16CodeUnits"
+    }
+  ]
+}

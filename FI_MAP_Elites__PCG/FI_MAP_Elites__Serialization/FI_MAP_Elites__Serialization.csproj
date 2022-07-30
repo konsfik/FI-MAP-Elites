@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FI_MAP_Elites__Core\FI_MAP_Elites__Core.csproj" />
+  </ItemGroup>
+
+</Project>

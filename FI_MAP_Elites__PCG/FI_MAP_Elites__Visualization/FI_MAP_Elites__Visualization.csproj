@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="DS__Evolvable_Geometry__Problem_Specification\**" />
+    <Compile Remove="DS__Exploration_Tree\**" />
+    <EmbeddedResource Remove="DS__Evolvable_Geometry__Problem_Specification\**" />
+    <EmbeddedResource Remove="DS__Exploration_Tree\**" />
+    <None Remove="DS__Evolvable_Geometry__Problem_Specification\**" />
+    <None Remove="DS__Exploration_Tree\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp" Version="2.80.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FI_MAP_Elites__Core\FI_MAP_Elites__Core.csproj" />
+  </ItemGroup>
+
+</Project>
